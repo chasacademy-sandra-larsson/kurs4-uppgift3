@@ -22,15 +22,44 @@ body {
   grid-template-rows: max-content auto max-content;
 }
 
-.top-left {
+.cat {
   grid-area: tl;
+  max-width: 200px;
+  margin: 8px;
+  color: white;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  padding: 16px;
 }
 
-.top-right {
+.cat-fact {
+  font-weight: normal;
+}
+
+.weather {
   grid-area: tr;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px;
+  height: fit-content;
+  color: rgba(248, 248, 248, 0.881);
+  font-size: 14px;
+}
+
+.weather .temperature {
+  display: flex;
 }
 
 .center {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   grid-area: center;
   display: grid;
   place-items: center;
@@ -66,14 +95,24 @@ body {
   border-radius: 8px;
   padding: 16px;
   margin: 8px;
+  width: fit-content;
   color: rgba(248, 248, 248, 0.881);
+  height: fit-content;
   font-size: 14px;
+  align-self: end;
 }
 
 .credit-name {
   font-weight: bold;
 }
 
-.bottom-right {
+.fox {
+  padding: 8px;
   grid-area: br;
+}
+
+.fox-img {
+  border-radius: 8px;
+  max-width: 320px;
+  max-height: 320px;
 }

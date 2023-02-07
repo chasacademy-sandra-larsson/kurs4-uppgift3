@@ -9,14 +9,26 @@
       src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"
       defer
     ></script>
-    <script src="js/unsplash.js" defer></script>
-    <script src="js/main.js" defer></script>
+    <script src="js/background.js" defer></script>
+    <script src="js/clock.js" defer></script>
+    <script src="js/weather.js" defer></script>
+    <script src="js/cat.js" defer></script>
+    <script src="js/fox.js" defer></script>
     <title>Document</title>
   </head>
   <body>
     <div class="container">
-      <div class="top-left">top left</div>
-      <div class="top-right">top right</div>
+      <div class="cat">
+        Cat fact
+        <div class="cat-fact"></div>
+      </div>
+      <div class="weather">
+        <div class="temperature">
+          <div class="temperature-amount"></div>
+          °C
+        </div>
+        <div class="status"></div>
+      </div>
       <div class="center">
         <div class="center-container">
           <div class="date"></div>
@@ -27,7 +39,7 @@
         Photographer:
         <div class="credit-name"></div>
       </div>
-      <div class="bottom-right">bottom right</div>
+      <div class="fox"></div>
     </div>
   </body>
 </html>
