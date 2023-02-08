@@ -13,7 +13,7 @@ unsplash
     updateCredits(res.data.user.name);
   })
   .catch((error) => {
-    updateBackground('/img/default.jpg');
+    updateBackground('https://images2.alphacoders.com/941/941898.jpg');
     updateCredits("Charles O'Rear");
   });
 
