@@ -47,6 +47,7 @@ body {
   margin: 8px;
   height: fit-content;
   width: fit-content;
+  justify-self: end;
   color: rgba(248, 248, 248, 0.881);
   font-size: 14px;
 }
