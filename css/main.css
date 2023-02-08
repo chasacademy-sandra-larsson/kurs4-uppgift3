@@ -46,6 +46,7 @@ body {
   padding: 16px;
   margin: 8px;
   height: fit-content;
+  width: fit-content;
   color: rgba(248, 248, 248, 0.881);
   font-size: 14px;
 }
